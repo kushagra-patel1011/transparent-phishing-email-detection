@@ -31,7 +31,7 @@ The system is designed for **learning and academic analysis**, not production us
 Instead of only labeling emails as *phishing* or *safe*, this project highlights
 the indicators that influenced the decision, supporting transparency and learning.
 
----
+```
 
 ## 🧩 Architecture (Logical View)
 
@@ -45,12 +45,9 @@ Feature Extraction
 Risk Scoring Engine
 ↓
 Explainable Output (Low / Medium / High Risk)
+```
 
-yaml
-Copy code
-
----
-
+```
 ## ⚙️ Project Structure
 
 transparent-phishing-email-detection/
@@ -60,10 +57,8 @@ transparent-phishing-email-detection/
 ├── main.py # Entry point
 └── requirements.txt
 
-yaml
-Copy code
 
----
+```
 
 ## 🛠️ Technology Stack
 
