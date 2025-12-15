@@ -1,4 +1,8 @@
-frontend/* linguist-detectable=false
+# Ignore frontend assets for language detection
+frontend/** linguist-detectable=false
+frontend/** linguist-language=JavaScript
+
+# Ignore common frontend file types
+*.js linguist-detectable=false
 *.html linguist-detectable=false
 *.css linguist-detectable=false
-*.js linguist-detectable=false
